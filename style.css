@@ -356,7 +356,7 @@ main .main__about {
 }
 
 .contact__wrapper {
-    width: 753px;
+    width: 80%;
     margin: 0 auto;
     color: #636363;
 }
@@ -540,5 +540,25 @@ footer {
     }
     .line4 img:not(:first-child) {
         display: none;
+    }
+    .contact__form {
+        width: 100%;
+        margin-right: 0 auto;
+    }
+    .centered {
+        width: 100%;
+    }
+    .form__inputs {
+        flex-direction: column;
+        width: 80%;
+    }
+    .form__inputs input {
+        width: 100%;
+    }
+    textarea {
+        width: 90%;
+    }
+    .button__block {
+        flex-direction: column;
     }
 }
